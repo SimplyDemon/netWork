@@ -19,6 +19,7 @@ type Response struct {
 }
 
 
+
 func (request *Request) SetUrl(setUrl string) {
 	request.Url = setUrl
 }
